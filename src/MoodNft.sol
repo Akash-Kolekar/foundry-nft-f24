@@ -68,4 +68,20 @@ contract MoodNft is ERC721 {
             s_tokenIdToMood[tokenId] = Mood.Happy;
         }
     }
+
+    function getTokenCounter() external view returns (uint256) {
+        return s_tokenCounter;
+    }
+
+    function getSadSvgImageUri() external view returns (string memory) {
+        return s_sadSvgImageUri;
+    }
+
+    function getHappySvgImageUri() external view returns (string memory) {
+        return s_happySvgImageUri;
+    }
+
+    function getTokenIdToMood(uint256 tokenId) external view returns (Mood) {
+        return s_tokenIdToMood[tokenId];
+    }
 }

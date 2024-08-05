@@ -22,4 +22,10 @@ contract MoodNftTest is Test {
         moodNft.mintNft();
         console.log(moodNft.tokenURI(0));
     }
+
+    function testCheckIfTokenCounterIncrementsOrNot() public {
+        vm.prank(USER);
+        moodNft.mintNft();
+        assertEq(moodNft.getTokenCounter(), 1);
+    }
 }

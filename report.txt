@@ -1,0 +1,640 @@
+Compiling 47 files with Solc 0.8.25
+Solc 0.8.25 finished in 5.83s
+Compiler run successful!
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/integrations/BasicNftTest.t.sol:BasicNftTest
+[PASS] testCanMint() (gas: 179108)
+[PASS] testCanMintAndHaveBalance() (gas: 181597)
+[PASS] testNameIsCorrect() (gas: 14327)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 3.04ms (1.98ms CPU time)
+
+Ran 1 test for test/unit/DeployMoodNftTest.t.sol:MoodNftTest
+[PASS] testConvertSvgToUri() (gas: 54817)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 4.13ms (3.10ms CPU time)
+
+Ran 2 tests for test/unit/MoodNftTest.t.sol:MoodNftTest
+[PASS] testCheckIfTokenCounterIncrementsOrNot() (gas: 86978)
+[PASS] testViewTokenURI() (gas: 203366)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 6.65ms (5.21ms CPU time)
+
+Ran 4 tests for test/integrations/MoodNftIntegrationTest.t.sol:MoodNftTest
+[PASS] testFlipTokenToHappy() (gas: 115014)
+[PASS] testFlipTokenToSad() (gas: 376150)
+[PASS] testSadAndHappyImageUri() (gas: 174722)
+[PASS] testViewTokenURI() (gas: 199000)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 14.24ms (12.52ms CPU time)
+
+Ran 4 test suites in 29.31ms (28.06ms CPU time): 10 tests passed, 0 failed, 0 skipped (10 total tests)
+Uncovered for script/DeployBasicNft.s.sol:
+
+Uncovered for script/DeployMoodNft.s.sol:
+
+Uncovered for script/Interactions.s.sol:
+- Function "run" (location: source ID 40, line 13, chars 437-623, hits: 0)
+- Line (location: source ID 40, line 14, chars 471-567, hits: 0)
+- Statement (location: source ID 40, line 14, chars 471-567, hits: 0)
+- Statement (location: source ID 40, line 14, chars 502-567, hits: 0)
+- Line (location: source ID 40, line 15, chars 577-616, hits: 0)
+- Statement (location: source ID 40, line 15, chars 577-616, hits: 0)
+- Function "mintNftOnContract" (location: source ID 40, line 18, chars 629-804, hits: 0)
+- Line (location: source ID 40, line 19, chars 698-717, hits: 0)
+- Statement (location: source ID 40, line 19, chars 698-717, hits: 0)
+- Line (location: source ID 40, line 20, chars 727-769, hits: 0)
+- Statement (location: source ID 40, line 20, chars 727-769, hits: 0)
+- Line (location: source ID 40, line 21, chars 779-797, hits: 0)
+- Statement (location: source ID 40, line 21, chars 779-797, hits: 0)
+- Function "run" (location: source ID 40, line 26, chars 845-1040, hits: 0)
+- Line (location: source ID 40, line 27, chars 879-979, hits: 0)
+- Statement (location: source ID 40, line 27, chars 879-979, hits: 0)
+- Statement (location: source ID 40, line 27, chars 915-979, hits: 0)
+- Line (location: source ID 40, line 28, chars 989-1033, hits: 0)
+- Statement (location: source ID 40, line 28, chars 989-1033, hits: 0)
+- Function "mintNftOnContract" (location: source ID 40, line 31, chars 1046-1211, hits: 0)
+- Line (location: source ID 40, line 32, chars 1114-1133, hits: 0)
+- Statement (location: source ID 40, line 32, chars 1114-1133, hits: 0)
+- Line (location: source ID 40, line 33, chars 1143-1176, hits: 0)
+- Statement (location: source ID 40, line 33, chars 1143-1176, hits: 0)
+- Line (location: source ID 40, line 34, chars 1186-1204, hits: 0)
+- Statement (location: source ID 40, line 34, chars 1186-1204, hits: 0)
+- Function "run" (location: source ID 40, line 41, chars 1303-1492, hits: 0)
+- Line (location: source ID 40, line 42, chars 1337-1437, hits: 0)
+- Statement (location: source ID 40, line 42, chars 1337-1437, hits: 0)
+- Statement (location: source ID 40, line 42, chars 1373-1437, hits: 0)
+- Line (location: source ID 40, line 43, chars 1447-1485, hits: 0)
+- Statement (location: source ID 40, line 43, chars 1447-1485, hits: 0)
+- Function "flipMoodNft" (location: source ID 40, line 46, chars 1498-1674, hits: 0)
+- Line (location: source ID 40, line 47, chars 1560-1579, hits: 0)
+- Statement (location: source ID 40, line 47, chars 1560-1579, hits: 0)
+- Line (location: source ID 40, line 48, chars 1589-1639, hits: 0)
+- Statement (location: source ID 40, line 48, chars 1589-1639, hits: 0)
+- Line (location: source ID 40, line 49, chars 1649-1667, hits: 0)
+- Statement (location: source ID 40, line 49, chars 1649-1667, hits: 0)
+
+Uncovered for src/BasicNft.sol:
+- Function "" (location: source ID 41, line 10, chars 257-329, hits: 0)
+- Line (location: source ID 41, line 11, chars 304-322, hits: 0)
+- Statement (location: source ID 41, line 11, chars 304-322, hits: 0)
+
+Uncovered for src/MoodNft.sol:
+- Function "" (location: source ID 42, line 21, chars 493-717, hits: 0)
+- Line (location: source ID 42, line 22, chars 602-620, hits: 0)
+- Statement (location: source ID 42, line 22, chars 602-620, hits: 0)
+- Line (location: source ID 42, line 23, chars 630-663, hits: 0)
+- Statement (location: source ID 42, line 23, chars 630-663, hits: 0)
+- Line (location: source ID 42, line 24, chars 673-710, hits: 0)
+- Statement (location: source ID 42, line 24, chars 673-710, hits: 0)
+- Branch (branch: 1, path: 0) (location: source ID 42, line 62, chars 1867-1985, hits: 0)
+- Line (location: source ID 42, line 63, chars 1934-1974, hits: 0)
+- Statement (location: source ID 42, line 63, chars 1934-1974, hits: 0)
+- Branch (branch: 2, path: 0) (location: source ID 42, line 65, chars 1994-2098, hits: 0)
+- Branch (branch: 2, path: 1) (location: source ID 42, line 65, chars 1994-2122, hits: 0)
+- Line (location: source ID 42, line 68, chars 2118-2155, hits: 0)
+- Statement (location: source ID 42, line 68, chars 2118-2155, hits: 0)
+
+Anchors for Contract "StdCheatsSafe" (solc 0.8.25, source ID 4):
+
+Anchors for Contract "StdUtils" (solc 0.8.25, source ID 12):
+
+Anchors for Contract "Math" (solc 0.8.25, source ID 36):
+
+Anchors for Contract "IERC20" (solc 0.8.25, source ID 18):
+
+Anchors for Contract "stdError" (solc 0.8.25, source ID 5):
+
+Anchors for Contract "StdInvariant" (solc 0.8.25, source ID 6):
+
+Anchors for Contract "MintBasicNft" (solc 0.8.25, source ID 40):
+- IC 111 -> Item 0
+- Creation code
+  - Refers to item: Function "run" (location: source ID 40, line 13, chars 437-623, hits: 0)
+- IC 208 -> Item 1
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 14, chars 471-567, hits: 0)
+- IC 208 -> Item 2
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 14, chars 471-567, hits: 0)
+- IC 210 -> Item 3
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 14, chars 502-567, hits: 0)
+- IC 275 -> Item 4
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 15, chars 577-616, hits: 0)
+- IC 275 -> Item 5
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 15, chars 577-616, hits: 0)
+- IC 121 -> Item 6
+- Creation code
+  - Refers to item: Function "mintNftOnContract" (location: source ID 40, line 18, chars 629-804, hits: 0)
+- IC 323 -> Item 7
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 19, chars 698-717, hits: 0)
+- IC 323 -> Item 8
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 19, chars 698-717, hits: 0)
+- IC 418 -> Item 9
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 20, chars 727-769, hits: 0)
+- IC 418 -> Item 10
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 20, chars 727-769, hits: 0)
+- IC 585 -> Item 11
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 21, chars 779-797, hits: 0)
+- IC 585 -> Item 12
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 21, chars 779-797, hits: 0)
+
+Anchors for Contract "StdCheats" (solc 0.8.25, source ID 4):
+
+Anchors for Contract "Script" (solc 0.8.25, source ID 1):
+
+Anchors for Contract "CommonBase" (solc 0.8.25, source ID 0):
+
+Anchors for Contract "stdStorageSafe" (solc 0.8.25, source ID 9):
+
+Anchors for Contract "StdStyle" (solc 0.8.25, source ID 10):
+
+Anchors for Contract "console" (solc 0.8.25, source ID 15):
+
+Anchors for Contract "StdAssertions" (solc 0.8.25, source ID 2):
+
+Anchors for Contract "MoodNftTest" (solc 0.8.25, source ID 45):
+
+Anchors for Contract "MoodNft" (solc 0.8.25, source ID 42):
+- IC 5 -> Item 49
+- Runtime code
+  - Refers to item: Function "" (location: source ID 42, line 21, chars 493-717, hits: 0)
+- IC 193 -> Item 50
+- Runtime code
+  - Refers to item: Line (location: source ID 42, line 22, chars 602-620, hits: 0)
+- IC 193 -> Item 51
+- Runtime code
+  - Refers to item: Statement (location: source ID 42, line 22, chars 602-620, hits: 0)
+- IC 201 -> Item 52
+- Runtime code
+  - Refers to item: Line (location: source ID 42, line 23, chars 630-663, hits: 0)
+- IC 201 -> Item 53
+- Runtime code
+  - Refers to item: Statement (location: source ID 42, line 23, chars 630-663, hits: 0)
+- IC 217 -> Item 54
+- Runtime code
+  - Refers to item: Line (location: source ID 42, line 24, chars 673-710, hits: 0)
+- IC 217 -> Item 55
+- Runtime code
+  - Refers to item: Statement (location: source ID 42, line 24, chars 673-710, hits: 0)
+- IC 822 -> Item 56
+- Creation code
+  - Refers to item: Function "mintNft" (location: source ID 42, line 27, chars 723-883, hits: 5)
+- IC 2540 -> Item 57
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 28, chars 759-796, hits: 5)
+- IC 2540 -> Item 58
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 28, chars 759-796, hits: 5)
+- IC 2552 -> Item 59
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 29, chars 806-850, hits: 5)
+- IC 2552 -> Item 60
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 29, chars 806-850, hits: 5)
+- IC 2614 -> Item 61
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 30, chars 860-876, hits: 5)
+- IC 2614 -> Item 62
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 30, chars 860-876, hits: 5)
+- IC 5293 -> Item 63
+- Creation code
+  - Refers to item: Function "_baseURI" (location: source ID 42, line 33, chars 889-1011, hits: 3)
+- IC 5296 -> Item 64
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 34, chars 966-1004, hits: 3)
+- IC 5296 -> Item 65
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 34, chars 966-1004, hits: 3)
+- IC 832 -> Item 66
+- Creation code
+  - Refers to item: Function "tokenURI" (location: source ID 42, line 37, chars 1017-1809, hits: 3)
+- IC 2642 -> Item 67
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 38, chars 1107-1129, hits: 3)
+- IC 2642 -> Item 68
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 38, chars 1107-1129, hits: 3)
+- IC 2643 -> Item 69
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 40, chars 1144-1182, hits: 3)
+- IC 2643 -> Item 70
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 40, chars 1144-1182, hits: 3)
+- IC 2843 -> Item 71
+- Creation code
+  - Refers to item: Branch (branch: 0, path: 0) (location: source ID 42, line 40, chars 1140-1238, hits: 2)
+- IC 2823 -> Item 72
+- Creation code
+  - Refers to item: Branch (branch: 0, path: 1) (location: source ID 42, line 40, chars 1140-1252, hits: 35)
+- IC 2719 -> Item 73
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 41, chars 1198-1227, hits: 2)
+- IC 2719 -> Item 74
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 41, chars 1198-1227, hits: 2)
+- IC 2865 -> Item 75
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 43, chars 1258-1285, hits: 1)
+- IC 2865 -> Item 76
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 43, chars 1258-1285, hits: 1)
+- IC 3007 -> Item 77
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 45, chars 1305-1802, hits: 3)
+- IC 3007 -> Item 78
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 45, chars 1305-1802, hits: 3)
+- IC 794 -> Item 79
+- Creation code
+  - Refers to item: Function "flipMood" (location: source ID 42, line 61, chars 1815-2172, hits: 2)
+- IC 2270 -> Item 80
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 62, chars 1871-1918, hits: 2)
+- IC 2270 -> Item 81
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 62, chars 1871-1918, hits: 2)
+- IC 2285 -> Item 82
+- Creation code
+  - Refers to item: Branch (branch: 1, path: 0) (location: source ID 42, line 62, chars 1867-1985, hits: 0)
+- IC 2334 -> Item 83
+- Creation code
+  - Refers to item: Branch (branch: 1, path: 1) (location: source ID 42, line 62, chars 1867-1985, hits: 2)
+- IC 2285 -> Item 84
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 63, chars 1934-1974, hits: 0)
+- IC 2285 -> Item 85
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 63, chars 1934-1974, hits: 0)
+- IC 2335 -> Item 86
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 65, chars 1998-2036, hits: 2)
+- IC 2335 -> Item 87
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 65, chars 1998-2036, hits: 2)
+- IC 2457 -> Item 88
+- Creation code
+  - Refers to item: Branch (branch: 2, path: 0) (location: source ID 42, line 65, chars 1994-2098, hits: 0)
+- IC 2530 -> Item 89
+- Creation code
+  - Refers to item: Branch (branch: 2, path: 1) (location: source ID 42, line 65, chars 1994-2122, hits: 0)
+- IC 2411 -> Item 90
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 66, chars 2052-2087, hits: 2)
+- IC 2411 -> Item 91
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 66, chars 2052-2087, hits: 2)
+- IC 2476 -> Item 92
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 68, chars 2118-2155, hits: 0)
+- IC 2476 -> Item 93
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 68, chars 2118-2155, hits: 0)
+- IC 582 -> Item 94
+- Creation code
+  - Refers to item: Function "getTokenCounter" (location: source ID 42, line 72, chars 2178-2275, hits: 1)
+- IC 1837 -> Item 95
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 73, chars 2247-2268, hits: 1)
+- IC 1837 -> Item 96
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 73, chars 2247-2268, hits: 1)
+- IC 448 -> Item 97
+- Creation code
+  - Refers to item: Function "getSadSvgImageUri" (location: source ID 42, line 76, chars 2281-2388, hits: 1)
+- IC 1383 -> Item 98
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 77, chars 2358-2381, hits: 1)
+- IC 1383 -> Item 99
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 77, chars 2358-2381, hits: 1)
+- IC 928 -> Item 100
+- Creation code
+  - Refers to item: Function "getHappySvgImageUri" (location: source ID 42, line 80, chars 2394-2505, hits: 1)
+- IC 3254 -> Item 101
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 81, chars 2473-2498, hits: 1)
+- IC 3254 -> Item 102
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 81, chars 2473-2498, hits: 1)
+- IC 718 -> Item 103
+- Creation code
+  - Refers to item: Function "getTokenIdToMood" (location: source ID 42, line 84, chars 2511-2631, hits: 2)
+- IC 2201 -> Item 104
+- Creation code
+  - Refers to item: Line (location: source ID 42, line 85, chars 2593-2624, hits: 2)
+- IC 2201 -> Item 105
+- Creation code
+  - Refers to item: Statement (location: source ID 42, line 85, chars 2593-2624, hits: 2)
+
+Anchors for Contract "Test" (solc 0.8.25, source ID 13):
+
+Anchors for Contract "IMulticall3" (solc 0.8.25, source ID 20):
+
+Anchors for Contract "Base64" (solc 0.8.25, source ID 31):
+
+Anchors for Contract "safeconsole" (solc 0.8.25, source ID 23):
+
+Anchors for Contract "stdStorage" (solc 0.8.25, source ID 9):
+
+Anchors for Contract "StringUtils" (solc 0.8.25, source ID 25):
+
+Anchors for Contract "IERC721Metadata" (solc 0.8.25, source ID 30):
+
+Anchors for Contract "ERC165" (solc 0.8.25, source ID 34):
+
+Anchors for Contract "BasicNftTest" (solc 0.8.25, source ID 43):
+
+Anchors for Contract "Vm" (solc 0.8.25, source ID 14):
+
+Anchors for Contract "stdJson" (solc 0.8.25, source ID 7):
+
+Anchors for Contract "IERC721Receiver" (solc 0.8.25, source ID 29):
+
+Anchors for Contract "IERC721" (solc 0.8.25, source ID 19):
+
+Anchors for Contract "IERC721Metadata" (solc 0.8.25, source ID 19):
+
+Anchors for Contract "IERC721TokenReceiver" (solc 0.8.25, source ID 19):
+
+Anchors for Contract "MintMoodNft" (solc 0.8.25, source ID 40):
+- IC 70 -> Item 13
+- Creation code
+  - Refers to item: Function "run" (location: source ID 40, line 26, chars 845-1040, hits: 0)
+- IC 139 -> Item 14
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 27, chars 879-979, hits: 0)
+- IC 139 -> Item 15
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 27, chars 879-979, hits: 0)
+- IC 141 -> Item 16
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 27, chars 915-979, hits: 0)
+- IC 206 -> Item 17
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 28, chars 989-1033, hits: 0)
+- IC 206 -> Item 18
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 28, chars 989-1033, hits: 0)
+- IC 80 -> Item 19
+- Creation code
+  - Refers to item: Function "mintNftOnContract" (location: source ID 40, line 31, chars 1046-1211, hits: 0)
+- IC 254 -> Item 20
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 32, chars 1114-1133, hits: 0)
+- IC 254 -> Item 21
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 32, chars 1114-1133, hits: 0)
+- IC 349 -> Item 22
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 33, chars 1143-1176, hits: 0)
+- IC 349 -> Item 23
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 33, chars 1143-1176, hits: 0)
+- IC 481 -> Item 24
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 34, chars 1186-1204, hits: 0)
+- IC 481 -> Item 25
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 34, chars 1186-1204, hits: 0)
+
+Anchors for Contract "IERC165" (solc 0.8.25, source ID 17):
+
+Anchors for Contract "IERC20Errors" (solc 0.8.25, source ID 26):
+
+Anchors for Contract "FlipMoodNft" (solc 0.8.25, source ID 40):
+- IC 109 -> Item 26
+- Creation code
+  - Refers to item: Function "run" (location: source ID 40, line 41, chars 1303-1492, hits: 0)
+- IC 553 -> Item 27
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 42, chars 1337-1437, hits: 0)
+- IC 553 -> Item 28
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 42, chars 1337-1437, hits: 0)
+- IC 555 -> Item 29
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 42, chars 1373-1437, hits: 0)
+- IC 620 -> Item 30
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 43, chars 1447-1485, hits: 0)
+- IC 620 -> Item 31
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 43, chars 1447-1485, hits: 0)
+- IC 81 -> Item 32
+- Creation code
+  - Refers to item: Function "flipMoodNft" (location: source ID 40, line 46, chars 1498-1674, hits: 0)
+- IC 216 -> Item 33
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 47, chars 1560-1579, hits: 0)
+- IC 216 -> Item 34
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 47, chars 1560-1579, hits: 0)
+- IC 311 -> Item 35
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 48, chars 1589-1639, hits: 0)
+- IC 311 -> Item 36
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 48, chars 1589-1639, hits: 0)
+- IC 455 -> Item 37
+- Creation code
+  - Refers to item: Line (location: source ID 40, line 49, chars 1649-1667, hits: 0)
+- IC 455 -> Item 38
+- Creation code
+  - Refers to item: Statement (location: source ID 40, line 49, chars 1649-1667, hits: 0)
+
+Anchors for Contract "IERC1155Errors" (solc 0.8.25, source ID 26):
+
+Anchors for Contract "IERC721Enumerable" (solc 0.8.25, source ID 19):
+
+Anchors for Contract "DeployMoodNft" (solc 0.8.25, source ID 39):
+- IC 118 -> Item 119
+- Creation code
+  - Refers to item: Function "run" (location: source ID 39, line 9, chars 261-605, hits: 4)
+- IC 328 -> Item 120
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 10, chars 313-364, hits: 4)
+- IC 328 -> Item 121
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 10, chars 313-364, hits: 4)
+- IC 365 -> Item 122
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 10, chars 336-364, hits: 4)
+- IC 491 -> Item 123
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 11, chars 374-429, hits: 4)
+- IC 491 -> Item 124
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 11, chars 374-429, hits: 4)
+- IC 529 -> Item 125
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 11, chars 399-429, hits: 4)
+- IC 691 -> Item 126
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 13, chars 440-459, hits: 4)
+- IC 691 -> Item 127
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 13, chars 440-459, hits: 4)
+- IC 786 -> Item 128
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 14, chars 469-546, hits: 4)
+- IC 786 -> Item 129
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 14, chars 469-546, hits: 4)
+- IC 788 -> Item 130
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 14, chars 487-546, hits: 4)
+- IC 896 -> Item 131
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 15, chars 556-574, hits: 4)
+- IC 896 -> Item 132
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 15, chars 556-574, hits: 4)
+- IC 991 -> Item 133
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 16, chars 584-598, hits: 4)
+- IC 991 -> Item 134
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 16, chars 584-598, hits: 4)
+- IC 70 -> Item 135
+- Creation code
+  - Refers to item: Function "svgToImageURI" (location: source ID 39, line 20, chars 688-1546, hits: 1)
+- IC 181 -> Item 136
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 24, chars 998-1050, hits: 9)
+- IC 181 -> Item 137
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 24, chars 998-1050, hits: 9)
+- IC 239 -> Item 138
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 28, chars 1286-1355, hits: 9)
+- IC 239 -> Item 139
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 28, chars 1286-1355, hits: 9)
+- IC 241 -> Item 140
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 28, chars 1319-1355, hits: 9)
+- IC 283 -> Item 141
+- Creation code
+  - Refers to item: Line (location: source ID 39, line 33, chars 1481-1539, hits: 9)
+- IC 283 -> Item 142
+- Creation code
+  - Refers to item: Statement (location: source ID 39, line 33, chars 1481-1539, hits: 9)
+
+Anchors for Contract "IERC165" (solc 0.8.25, source ID 35):
+
+Anchors for Contract "VmSafe" (solc 0.8.25, source ID 14):
+
+Anchors for Contract "TestBase" (solc 0.8.25, source ID 0):
+
+Anchors for Contract "MockERC721" (solc 0.8.25, source ID 22):
+
+Anchors for Contract "stdMath" (solc 0.8.25, source ID 8):
+
+Anchors for Contract "DeployBasicNft" (solc 0.8.25, source ID 38):
+- IC 59 -> Item 39
+- Creation code
+  - Refers to item: Function "run" (location: source ID 38, line 8, chars 190-364, hits: 3)
+- IC 158 -> Item 40
+- Creation code
+  - Refers to item: Line (location: source ID 38, line 9, chars 241-260, hits: 3)
+- IC 158 -> Item 41
+- Creation code
+  - Refers to item: Statement (location: source ID 38, line 9, chars 241-260, hits: 3)
+- IC 253 -> Item 42
+- Creation code
+  - Refers to item: Line (location: source ID 38, line 10, chars 270-304, hits: 3)
+- IC 253 -> Item 43
+- Creation code
+  - Refers to item: Statement (location: source ID 38, line 10, chars 270-304, hits: 3)
+- IC 255 -> Item 44
+- Creation code
+  - Refers to item: Statement (location: source ID 38, line 10, chars 290-304, hits: 3)
+- IC 334 -> Item 45
+- Creation code
+  - Refers to item: Line (location: source ID 38, line 11, chars 314-332, hits: 3)
+- IC 334 -> Item 46
+- Creation code
+  - Refers to item: Statement (location: source ID 38, line 11, chars 314-332, hits: 3)
+- IC 429 -> Item 47
+- Creation code
+  - Refers to item: Line (location: source ID 38, line 12, chars 342-357, hits: 3)
+- IC 429 -> Item 48
+- Creation code
+  - Refers to item: Statement (location: source ID 38, line 12, chars 342-357, hits: 3)
+
+Anchors for Contract "BasicNft" (solc 0.8.25, source ID 41):
+- IC 5 -> Item 106
+- Runtime code
+  - Refers to item: Function "" (location: source ID 41, line 10, chars 257-329, hits: 0)
+- IC 160 -> Item 107
+- Runtime code
+  - Refers to item: Line (location: source ID 41, line 11, chars 304-322, hits: 0)
+- IC 160 -> Item 108
+- Runtime code
+  - Refers to item: Statement (location: source ID 41, line 11, chars 304-322, hits: 0)
+- IC 679 -> Item 109
+- Creation code
+  - Refers to item: Function "mintNft" (location: source ID 41, line 14, chars 335-514, hits: 2)
+- IC 2034 -> Item 110
+- Creation code
+  - Refers to item: Line (location: source ID 41, line 15, chars 393-434, hits: 2)
+- IC 2034 -> Item 111
+- Creation code
+  - Refers to item: Statement (location: source ID 41, line 15, chars 393-434, hits: 2)
+- IC 2069 -> Item 112
+- Creation code
+  - Refers to item: Line (location: source ID 41, line 16, chars 444-481, hits: 2)
+- IC 2069 -> Item 113
+- Creation code
+  - Refers to item: Statement (location: source ID 41, line 16, chars 444-481, hits: 2)
+- IC 2081 -> Item 114
+- Creation code
+  - Refers to item: Line (location: source ID 41, line 17, chars 491-507, hits: 2)
+- IC 2081 -> Item 115
+- Creation code
+  - Refers to item: Statement (location: source ID 41, line 17, chars 491-507, hits: 2)
+- IC 631 -> Item 116
+- Creation code
+  - Refers to item: Function "tokenURI" (location: source ID 41, line 20, chars 520-647, hits: 2)
+- IC 1871 -> Item 117
+- Creation code
+  - Refers to item: Line (location: source ID 41, line 21, chars 610-640, hits: 2)
+- IC 1871 -> Item 118
+- Creation code
+  - Refers to item: Statement (location: source ID 41, line 21, chars 610-640, hits: 2)
+
+Anchors for Contract "MoodNftTest" (solc 0.8.25, source ID 46):
+
+Anchors for Contract "Strings" (solc 0.8.25, source ID 33):
+
+Anchors for Contract "SignedMath" (solc 0.8.25, source ID 37):
+
+Anchors for Contract "ScriptBase" (solc 0.8.25, source ID 0):
+
+Anchors for Contract "IERC721" (solc 0.8.25, source ID 28):
+
+Anchors for Contract "MoodNftTest" (solc 0.8.25, source ID 44):
+
+Anchors for Contract "MockERC20" (solc 0.8.25, source ID 21):
+
+Anchors for Contract "stdToml" (solc 0.8.25, source ID 11):
+
+Anchors for Contract "DevOpsTools" (solc 0.8.25, source ID 24):
+
+Anchors for Contract "StdChains" (solc 0.8.25, source ID 3):
+
+Anchors for Contract "ERC721" (solc 0.8.25, source ID 27):
+
+Anchors for Contract "Context" (solc 0.8.25, source ID 32):
+
+Anchors for Contract "IERC721Errors" (solc 0.8.25, source ID 26):
+
